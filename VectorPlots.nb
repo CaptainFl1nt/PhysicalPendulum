@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    169533,       3148]
-NotebookOptionsPosition[    168576,       3125]
-NotebookOutlinePosition[    168919,       3140]
-CellTagsIndexPosition[    168876,       3137]
+NotebookDataLength[    173078,       3240]
+NotebookOptionsPosition[    171928,       3215]
+NotebookOutlinePosition[    172271,       3230]
+CellTagsIndexPosition[    172228,       3227]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -38,35 +38,88 @@ Cell[BoxData[{
     RowBox[{
      RowBox[{"-", "m"}], " ", "g", " ", "d", " ", 
      RowBox[{"Sin", "[", "th", "]"}]}]}], "}"}]}], "\[IndentingNewLine]", 
- RowBox[{"VectorPlot", "[", 
-  RowBox[{
-   RowBox[{"vec", "[", 
-    RowBox[{"p", ",", "th"}], "]"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"th", ",", 
+ RowBox[{
+  RowBox[{"Show", "[", 
+   RowBox[{
+    RowBox[{"VectorPlot", "[", 
      RowBox[{
-      RowBox[{"-", "2"}], "Pi"}], ",", 
-     RowBox[{"2", "Pi"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"p", ",", 
-     RowBox[{"-", "12"}], ",", "12"}], "}"}]}], "]"}], "\[IndentingNewLine]", 
- RowBox[{"StreamPlot", "[", 
+      RowBox[{"vec", "[", 
+       RowBox[{"p", ",", "th"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"th", ",", 
+        RowBox[{
+         RowBox[{"-", "2"}], "Pi"}], ",", 
+        RowBox[{"2", "Pi"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"p", ",", 
+        RowBox[{"-", "12"}], ",", "12"}], "}"}]}], "]"}], ",", 
+    RowBox[{"AxesLabel", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"None", ",", "None"}], "}"}]}], ",", 
+    RowBox[{"FrameLabel", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"HoldForm", "[", 
+          SubscriptBox["p", "\[Theta]"], "]"}], ",", "None"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{
+         RowBox[{"HoldForm", "[", "\[Theta]", "]"}], ",", "None"}], "}"}]}], 
+      "}"}]}], ",", 
+    RowBox[{"PlotLabel", "\[Rule]", "None"}], ",", 
+    RowBox[{"LabelStyle", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"GrayLevel", "[", "0", "]"}], "}"}]}], ",", 
+    RowBox[{"FrameTicks", "\[Rule]", 
+     RowBox[{"{", 
+      RowBox[{"None", ",", "None"}], "}"}]}]}], "]"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
   RowBox[{
-   RowBox[{"vec", "[", 
-    RowBox[{"p", ",", "th"}], "]"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"th", ",", 
+   RowBox[{"StreamPlot", "[", 
+    RowBox[{
+     RowBox[{"vec", "[", 
+      RowBox[{"p", ",", "th"}], "]"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"th", ",", 
+       RowBox[{
+        RowBox[{"-", "2"}], "Pi"}], ",", 
+       RowBox[{"2", "Pi"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"p", ",", 
+       RowBox[{"-", "12"}], ",", "12"}], "}"}]}], "]"}], ",", 
+   RowBox[{"AxesLabel", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"None", ",", "None"}], "}"}]}], ",", 
+   RowBox[{"FrameLabel", "\[Rule]", 
+    RowBox[{"{", 
      RowBox[{
-      RowBox[{"-", "2"}], "Pi"}], ",", 
-     RowBox[{"2", "Pi"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"p", ",", 
-     RowBox[{"-", "12"}], ",", "12"}], "}"}]}], "]"}]}], "Input",
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"HoldForm", "[", 
+         SubscriptBox["p", "\[Theta]"], "]"}], ",", "None"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"HoldForm", "[", "\[Theta]", "]"}], ",", "None"}], "}"}]}], 
+     "}"}]}], ",", 
+   RowBox[{"PlotLabel", "\[Rule]", "None"}], ",", 
+   RowBox[{"LabelStyle", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"GrayLevel", "[", "0", "]"}], "}"}]}], ",", 
+   RowBox[{"FrameTicks", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"None", ",", "None"}], "}"}]}]}], "]"}]}], "Input",
  CellChangeTimes->{{3.8161768077274914`*^9, 3.816176856106902*^9}, {
   3.8161768951707125`*^9, 3.8161769000565863`*^9}, {3.8162178583454475`*^9, 
-  3.8162182565822573`*^9}},
+  3.8162182565822573`*^9}, {3.816218409685116*^9, 3.816218453360318*^9}, {
+  3.8162185108117485`*^9, 3.816218536574631*^9}, {3.816218613449318*^9, 
+  3.816218614560639*^9}, {3.816218672049607*^9, 3.8162186759681096`*^9}, {
+  3.8162187559826565`*^9, 3.816218769191787*^9}, {3.816218800930306*^9, 
+  3.8162188054647217`*^9}, {3.816218842217572*^9, 3.8162188762976985`*^9}, {
+  3.816219089908395*^9, 3.81621916030433*^9}},
  CellLabel->
-  "In[277]:=",ExpressionUUID->"b2010484-2b1b-4182-8f66-dc0d44f877ec"],
+  "In[100]:=",ExpressionUUID->"b2010484-2b1b-4182-8f66-dc0d44f877ec"],
 
 Cell[BoxData[
  GraphicsBox[{{}, 
@@ -749,13 +802,23 @@ Cell[BoxData[
      ArrowBox[{{5.334307599812561, 11.999999999999996`}, {7.232063014546611, 
       11.999999999999996`}}]}}},
   AspectRatio->1,
+  AxesLabel->{None, None},
   DisplayFunction->Identity,
   Frame->True,
-  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  FrameLabel->{{
+     FormBox[
+      TagBox[
+       SubscriptBox["p", "\[Theta]"], HoldForm], TraditionalForm], None}, {
+     FormBox[
+      TagBox["\[Theta]", HoldForm], TraditionalForm], None}},
+  FrameTicks->{None, None},
   GridLinesStyle->Directive[
     GrayLevel[0.5, 0.4]],
+  LabelStyle->{
+    GrayLevel[0]},
   Method->{
    "DefaultBoundaryStyle" -> Automatic, "TransparentPolygonMesh" -> True},
+  PlotLabel->None,
   PlotRange->{{-7.250715345748124, 7.250715345748124}, {-12.967530038568537`, 
    12.967530038568537`}},
   PlotRangeClipping->True,
@@ -765,9 +828,13 @@ Cell[BoxData[
      Scaled[0.05], 
      Scaled[0.05]}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{{3.816218221659421*^9, 3.81621825750985*^9}},
+ CellChangeTimes->{{3.816218221659421*^9, 3.81621825750985*^9}, 
+   3.81621845568929*^9, 3.816218540183794*^9, 3.816218615169408*^9, 
+   3.8162186772361193`*^9, 3.8162187700054855`*^9, 3.8162188060859194`*^9, {
+   3.816218858890217*^9, 3.8162188777782993`*^9}, {3.8162190976011257`*^9, 
+   3.816219161223843*^9}},
  CellLabel->
-  "Out[282]=",ExpressionUUID->"393b0cd0-3ec3-4e54-95dd-1dae2fdc169b"],
+  "Out[105]=",ExpressionUUID->"b3339555-1d8a-41b4-8c8d-3a4090eb30fa"],
 
 Cell[BoxData[
  GraphicsBox[{{}, {
@@ -3071,13 +3138,23 @@ Cell[BoxData[
        6.140642595174436, 1.5499823444766738`}, {6.283185307179586, 
        1.5477056856207891`}}]}}}},
   AspectRatio->1,
+  AxesLabel->{None, None},
   DisplayFunction->Identity,
   Frame->True,
-  FrameTicks->{{Automatic, Automatic}, {Automatic, Automatic}},
+  FrameLabel->{{
+     FormBox[
+      TagBox[
+       SubscriptBox["p", "\[Theta]"], HoldForm], TraditionalForm], None}, {
+     FormBox[
+      TagBox["\[Theta]", HoldForm], TraditionalForm], None}},
+  FrameTicks->{None, None},
   GridLinesStyle->Directive[
     GrayLevel[0.5, 0.4]],
+  LabelStyle->{
+    GrayLevel[0]},
   Method->{
    "DefaultBoundaryStyle" -> Automatic, "TransparentPolygonMesh" -> True},
+  PlotLabel->None,
   PlotRange->{{-6.699950806353061, 6.699950806353061}, {-12.416765499173474`, 
    12.416765499173474`}},
   PlotRangeClipping->True,
@@ -3087,10 +3164,23 @@ Cell[BoxData[
      Scaled[0.05], 
      Scaled[0.05]}},
   Ticks->{Automatic, Automatic}]], "Output",
- CellChangeTimes->{{3.816218221659421*^9, 3.8162182577671947`*^9}},
+ CellChangeTimes->{{3.816218221659421*^9, 3.81621825750985*^9}, 
+   3.81621845568929*^9, 3.816218540183794*^9, 3.816218615169408*^9, 
+   3.8162186772361193`*^9, 3.8162187700054855`*^9, 3.8162188060859194`*^9, {
+   3.816218858890217*^9, 3.8162188777782993`*^9}, {3.8162190976011257`*^9, 
+   3.816219161480788*^9}},
  CellLabel->
-  "Out[283]=",ExpressionUUID->"673cbbd3-8731-4a54-ab91-6d05631c9475"]
+  "Out[106]=",ExpressionUUID->"99350b5d-ff9e-4f29-b39e-43f2baeaa40d"]
 }, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.8162190825818768`*^9, 3.8162190848070135`*^9}},
+ NumberMarks->False,ExpressionUUID->"598551f9-e16f-4519-88d3-8a80efe1b3e5"],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.816219085712686*^9, 
+  3.816219085743683*^9}},ExpressionUUID->"06f77a3e-3dcc-4cb4-bbac-\
+c5184e0d6863"],
 
 Cell[BoxData[""], "Input",
  CellChangeTimes->{{3.8161768598645744`*^9, 3.816176881330927*^9}, {
@@ -3124,7 +3214,7 @@ Cell[BoxData[
 }, Open  ]]
 },
 WindowSize->{759, 833},
-WindowMargins->{{248, Automatic}, {21, Automatic}},
+WindowMargins->{{Automatic, 59}, {-23, Automatic}},
 FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
 StyleDefinitions->"Default.nb"
 ]
@@ -3140,15 +3230,17 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 1564, 46, 143, "Input",ExpressionUUID->"b2010484-2b1b-4182-8f66-dc0d44f877ec"],
-Cell[2147, 70, 36143, 699, 372, "Output",ExpressionUUID->"393b0cd0-3ec3-4e54-95dd-1dae2fdc169b"],
-Cell[38293, 771, 129156, 2320, 405, "Output",ExpressionUUID->"673cbbd3-8731-4a54-ab91-6d05631c9475"]
+Cell[580, 22, 3607, 99, 238, "Input",ExpressionUUID->"b2010484-2b1b-4182-8f66-dc0d44f877ec"],
+Cell[4190, 123, 36634, 713, 377, "Output",ExpressionUUID->"b3339555-1d8a-41b4-8c8d-3a4090eb30fa"],
+Cell[40827, 838, 129644, 2334, 410, "Output",ExpressionUUID->"99350b5d-ff9e-4f29-b39e-43f2baeaa40d"]
 }, Open  ]],
-Cell[167464, 3094, 407, 6, 28, "Input",ExpressionUUID->"1cc68418-6f18-41fa-80f9-4cbf4c305272"],
-Cell[167874, 3102, 154, 3, 28, InheritFromParent,ExpressionUUID->"207a63c8-fe09-4555-80ac-e93504aa6271"],
+Cell[170486, 3175, 172, 2, 28, "Input",ExpressionUUID->"598551f9-e16f-4519-88d3-8a80efe1b3e5"],
+Cell[170661, 3179, 152, 3, 28, InheritFromParent,ExpressionUUID->"06f77a3e-3dcc-4cb4-bbac-c5184e0d6863"],
+Cell[170816, 3184, 407, 6, 28, "Input",ExpressionUUID->"1cc68418-6f18-41fa-80f9-4cbf4c305272"],
+Cell[171226, 3192, 154, 3, 28, "Input",ExpressionUUID->"207a63c8-fe09-4555-80ac-e93504aa6271"],
 Cell[CellGroupData[{
-Cell[168053, 3109, 227, 4, 28, "Input",ExpressionUUID->"78e2a7fe-f710-4d74-9c30-459d0501c0a5"],
-Cell[168283, 3115, 277, 7, 32, "Output",ExpressionUUID->"0e42c4d1-2bdc-460c-9e64-6cc1c84a4c32"]
+Cell[171405, 3199, 227, 4, 28, "Input",ExpressionUUID->"78e2a7fe-f710-4d74-9c30-459d0501c0a5"],
+Cell[171635, 3205, 277, 7, 32, "Output",ExpressionUUID->"0e42c4d1-2bdc-460c-9e64-6cc1c84a4c32"]
 }, Open  ]]
 }
 ]
